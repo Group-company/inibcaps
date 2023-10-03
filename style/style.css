@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+@import url(benefits.css);
+@import url(footer.css);
+@import url(header.css);
+@import url(first-section.css);
+@import url(buy-section.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f1f1f1;
+}
+
+.container {
+    padding: 0 4rem;
+    @media(max-width: 768px) {
+      padding: 0 2rem;
+    }
+  }
+
+:root {
+    --primary-color: #32CD33;
+    --dark: #000000;
+    --white: #ffffff;
+    --red: #EB2424;
+    --text-color-benefits: #828580;
+}
