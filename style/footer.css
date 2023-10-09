@@ -1,0 +1,18 @@
+/* footer{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 40px;
+    display: flex;
+    gap: 15%;
+}
+footer .footer-text-two span{
+    flex-direction: column;
+} */
+
