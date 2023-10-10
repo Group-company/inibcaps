@@ -1,7 +1,18 @@
 .container-one img{
     position: absolute;
-    right: 0;
+    z-index: -1;
+    width: 700px;
 }
+@media(max-width: 600px) {
+
+    .text-one {
+        color: #fff;
+ 
+    }
+    
+}
+
+/* 
 @media (max-width: 768){
     .container-one img{
         position: absolute;
@@ -43,4 +54,4 @@
     @media (max-width: 768px){
         font-size: 1rem;
     }
-}
+}  */
