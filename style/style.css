@@ -16,17 +16,22 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.container {
-    padding: 0 4rem;
-    @media(max-width: 768px) {
-      padding: 0 2rem;
-    }
-  }
-
 :root {
     --primary-color: #32CD33;
     --dark: #000000;
     --white: #ffffff;
     --red: #EB2424;
     --text-color-benefits: #828580;
+}
+
+.background-primary {
+  background-color: var(--primary-color);
+}
+.navbar-toggler{
+  border: none!important;
+  filter: invert(150%);
+}
+
+.btn-bg-hover:hover {
+  background-color: #ffd351;
 }
