@@ -68,6 +68,8 @@
     font-size: 1.2rem;
 }
 
+
+
 @media (max-width: 1024px){
     .buy-section{
         flex-direction: column;
