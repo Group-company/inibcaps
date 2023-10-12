@@ -5,6 +5,7 @@
 @import url(header.css);
 @import url(first-section.css);
 @import url(buy-section.css);
+@import url(third-section.css);
 
 * {
   margin: 0;

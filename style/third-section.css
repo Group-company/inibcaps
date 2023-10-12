@@ -1,0 +1,182 @@
+.benefits {
+    margin: 0 auto;
+    margin-top: 22rem;
+    width: 100%;
+    height: auto;
+  }
+  
+  .benefits .beneficios_title {
+    text-align: center;
+    color: var(--dark);
+    font-size: 30px;
+    font-weight: 866;
+  }
+
+  .beneficios_subtitle {
+    text-align: center;
+    padding-top: 20px;
+    color: var(--dark);
+    font-size: 20px;
+    font-weight: 450;
+  }
+  
+  .bolas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 93px;
+  }
+  
+  .bolas .ball-1 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bolas .ball-1 .text-info span {
+    color: var(--benefits-color-text);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .bolas .ball-1 .text-info {
+    margin-top: 39px;
+    text-align: center;
+    color: var(--text-color-benefits);
+  }
+
+  .bolas .ball-1 .first-line {
+    white-space: nowrap;
+  }
+  
+  .bolas .image-ball-1 img {
+    width: 115px;
+    height: 115px;
+  }
+
+  .bolas .image-ball-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 115px;
+    border: 5px solid var(--primary);
+    border-radius: 100%;
+    padding: 80px;
+  }
+  
+  .bolas .ball-2 {
+    width: 200px;
+    height: 200px;
+    background-color: var();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bolas .ball-2 .text-info span {
+    color: var(--benefits-color-text);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .bolas .ball-2 .text-info {
+    margin-top: 39px;
+    text-align: center;
+    color: var(--text-color-benefits);
+  }
+
+  .bolas .ball-2 .first-line {
+    white-space: nowrap;
+  }
+  
+  .bolas .image-ball-2 img {
+    width: 115px;
+    height: 115px;
+  }
+
+  .bolas .image-ball-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 115px;
+    border: 5px solid var(--primary);
+    border-radius: 100%;
+    padding: 80px;
+  }
+  
+  .bolas .ball-3 {
+    width: 200px;
+    height: 200px;
+    background-color: var();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bolas .ball-3 .text-info span {
+    color: var(--benefits-color-text);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .bolas .ball-3 .text-info {
+    margin-top: 39px;
+    text-align: center;
+    color: var(--text-color-benefits);
+  }
+
+  .bolas .ball-3 .first-line {
+    white-space: nowrap;
+  }
+  
+  .bolas .image-ball-3 img {
+    width: 115px;
+    height: 115px;
+  }
+
+  .bolas .image-ball-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 115px;
+    border: 5px solid var(--primary);
+    border-radius: 100%;
+    padding: 80px;
+  }
+  
+  @media (max-width: 899px) {
+    .bolas {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 93px;
+    }
+    .bolas .ball-2 {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .benefits {
+      margin-top: 14rem;
+    }
+  }
+  
+  @media (max-width: 680px) {
+      .benefits {
+        margin-top: 0;
+      }
+    }
+    
+  
+
+ 
