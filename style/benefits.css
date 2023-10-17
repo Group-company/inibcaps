@@ -20,3 +20,9 @@
   margin-top: 1rem;
   font-weight: bold;
 }
+
+@media (max-width: 575px) {
+  .benefits-container {
+    justify-content: center!important;
+  }
+}
