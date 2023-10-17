@@ -46,3 +46,7 @@ body {
   background-color: #ffd351; 
   transform: translateY(-7px);
 }
+
+p {
+  margin-bottom: 0;
+}

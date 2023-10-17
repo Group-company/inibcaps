@@ -1,0 +1,22 @@
+.benefits-box .img-border{
+  margin-top: 2rem;
+  border: 4px solid var(--primary-color);
+  border-radius: 50%;
+  height: 200px!important;
+  width: 200px!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.benefits-box img {
+  height: 100px;
+}
+
+.benefits .text-gray {
+  opacity: .6;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}

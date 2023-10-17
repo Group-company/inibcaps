@@ -11,29 +11,31 @@
     background-color: var(--white);
     width: 300px;
     border-radius: 50px;
+    padding: 2rem;
 }
 .buy-section .text-top{
     background-color: var(--dark);
     color: var(--white);
-    padding: 10px 0;
     text-align: center;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     position: relative;
-    bottom: 20px;
-    border-radius: 50px;
+    border-radius: 30px;
+    transform : translateY(-3rem);
+    padding: 15px 4px;
+
 }
 
 .text-top-finally{
     background-color: var(--red);
     color: var(--white);
-    padding: 10px 0;
     text-align: center;
     font-weight: bold;
-    font-size: 1.2rem;
-    border-radius: 50px;
+    font-size: 1.1rem;
+    border-radius: 30px;
     position: relative;
-    bottom: 20px;
+    transform : translateY(-3rem);
+    padding: 15px 4px;
 }
 
 .footer-kit .text-think{
@@ -44,8 +46,20 @@
 }
 
 .kit img{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.kit .text-top, .kit .text-top-finally {
+    font-size: 1.5rem;
+    line-height: 20px ;
+}
+.kit .text-top span, .kit .text-top-finally span {
+    font-size: .8rem;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+
 }
 
 .footer-kit{
