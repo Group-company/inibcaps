@@ -6,6 +6,10 @@
 @import url(first-section.css);
 @import url(buy-section.css);
 
+html{
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
