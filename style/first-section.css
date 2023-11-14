@@ -3,6 +3,9 @@
     z-index: -1;
     width: 700px;
 }
+.container-one .text-one {
+    margin-top: 6rem!important;
+}
 
 .container-one{
     position: relative;

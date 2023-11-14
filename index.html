@@ -11,27 +11,29 @@
     <link rel="shortcut icon" href="assets/img/FAVICON.png" type="image/x-icon">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg header-main">
-        <div class="container">
-      <img src="assets/svg/logo.svg" alt="Logo Inib Caps">          
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav container mt-2 d-flex justify-content-end gap-3">
-              <li class="nav-item fs-5">
-                <a class="nav-link scroll-link text-white" href="#pagina-inicial">Página Inicial</a>
-              </li>
-              <li class="nav-item fs-5">
-                <a class="nav-link scroll-link text-white" href="#kit-promocionais">Kits Promocionais</a>
-              </li>
-              <li class="nav-item fs-5">
-                <a class="nav-link scroll-link text-white" href="#benefits">Beneficios</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <header class="header">
+    <nav class="container nav">
+      <div class="logo">
+        <img src="assets/svg/logo.svg" width="130px" alt="Logo vita caps">
+      </div>
+      <div class="menu-button">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="links">
+        <li>
+          <a href="#home">Página inicial</a>
+        </li>
+        <li>
+          <a href="#kits-promocionais">Kits promocionais</a>
+        </li>
+        <li>
+          <a href="#">Contato</a>
+        </li>
+      </div>
+    </nav>
+  </header>
 
       <section id="pagina-inicial" class="container-one">
         <img src="assets/svg/image-banner.svg" class="position-absolute end-0 top-0" alt="">
@@ -124,11 +126,9 @@
           </div>
         </div>
       </section>
-
-
       <section class="footer-container">
-        <div class="section first">
-          <p class="copyright">Copyright © 2023 Marshall caps.</p>
+          <div class="section first container">
+            <p class="copyright">Copyright © 2023 Marshall caps.</p>
           <p class="alrights">Todos os direitos reservados</p>
           <div class="social">
             <img src="assets/svg/instagram.svg" alt="" />
@@ -136,17 +136,17 @@
             <img src="assets/svg/yt.svg" alt="" />
           </div>
         </div>
-        <div class="section second">
+        <div class="section second container">
           <h3>Seções</h3>
           <a href="#pagina-inicial">Home</a>
           <a href="#kit-promocionais">Benefícios</a>
           <a href="#benefits">Kits Promocionais</a>
         </div>
-        <div class="section thrd">
+        <div class="section thrd container">
           <h3>Suporte</h3>
           <a href="https://wa.me/5562981808038">Contato</a>
         </div>
       </section>
-
-</body>
+<script src="js/menu.js"></script>
+    </body>
 </html>
